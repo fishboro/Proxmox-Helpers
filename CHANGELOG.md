@@ -1,8 +1,3 @@
-<div align="center">
-  <a href="#">
-    <img src="https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/logo.png" height="100px" />
- </a>
-</div>
 <h1 align="center">Changelog</h1>
 
 <h3 align="center">All notable changes to this project will be documented in this file.</h3>
@@ -17,21 +12,21 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **Open WebUI LXC** [(Commit)](https://github.com/tteck/Proxmox/commit/8a21f6e7f025a911865395d4c0fa9a001bd0d512)
+- **Open WebUI LXC** [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/8a21f6e7f025a911865395d4c0fa9a001bd0d512)
   - Refactor Script to add an option to install Ollama.
 
 ## 2024-10-26
 
 ### Changed
 
-- **AdventureLog LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/adventurelog-install.sh)
+- **AdventureLog LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/adventurelog-install.sh)
   - NEW Script
 
 ## 2024-10-25
 
 ### Changed
 
-- **Zoraxy LXC** [(Commit)](https://github.com/tteck/Proxmox/commit/468a5d367ded4cf453a1507452e112ac3e234e2a)
+- **Zoraxy LXC** [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/468a5d367ded4cf453a1507452e112ac3e234e2a)
   - Switch built from source to a pre-compiled binary version.
   - Breaking Change
 
@@ -39,41 +34,41 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **Wallos LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/wallos-install.sh)
+- **Wallos LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/wallos-install.sh)
   - NEW Script
-- **Open WebUI LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/openwebui-install.sh)
+- **Open WebUI LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/openwebui-install.sh)
   - NEW Script
 
 ## 2024-10-19
 
 ### Changed
 
-- **Cockpit LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/cockpit-install.sh)
+- **Cockpit LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/cockpit-install.sh)
   - NEW Script
-- **Neo4j LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/neo4j-install.sh)
+- **Neo4j LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/neo4j-install.sh)
   - NEW Script
 
 ## 2024-10-18
 
 ### Changed
 
-- **ArchiveBox LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/archivebox-install.sh)
+- **ArchiveBox LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/archivebox-install.sh)
   - NEW Script
 
 ## 2024-10-15
 
 ### Changed
 
-- **evcc LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/evcc-install.sh)
+- **evcc LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/evcc-install.sh)
   - NEW Script
 
 ## 2024-10-10
 
 ### Changed
 
-- **MySQL LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/mysql-install.sh)
+- **MySQL LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/mysql-install.sh)
   - NEW Script
-- **Tianji LXC** [(Commit)](https://github.com/tteck/Proxmox/commit/4c83a790ac9b040da1f11ad2cbe13d3fc5f480e9)
+- **Tianji LXC** [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/4c83a790ac9b040da1f11ad2cbe13d3fc5f480e9)
   - Breaking Change
   - Switch from `pm2` process management to `systemd`
 
@@ -81,7 +76,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **Home Assistant Core LXC** [(Commit)](https://github.com/tteck/Proxmox/commit/f2937febe69b2bad8b3a14eb84aa562a8f14cc6a) [(Commit)](https://github.com/tteck/Proxmox/commit/f2966ced7f457fd506f865f7f5b70ea12c4b0049)
+- **Home Assistant Core LXC** [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/f2937febe69b2bad8b3a14eb84aa562a8f14cc6a) [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/f2966ced7f457fd506f865f7f5b70ea12c4b0049)
   - Refactor Code
   - Breaking Change
   - Home Assistant has transitioned to using `uv` for managing the virtual environment and installing additional modules.
@@ -90,23 +85,23 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **HomeBox LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/homebox-install.sh)
+- **HomeBox LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/homebox-install.sh)
   - NEW Script
-- **Zipline LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/zipline-install.sh)
+- **Zipline LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/zipline-install.sh)
   - NEW Script
 
 ## 2024-09-13
 
 ### Changed
 
-- **Tianji LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/tianji-install.sh)
+- **Tianji LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/tianji-install.sh)
   - NEW Script
 
 ## 2024-08-21
 
 ### Changed
 
-- **WireGuard LXC** [(Commit)](https://github.com/tteck/Proxmox/commit/723365a79df7cc0fd29b1af8f7ef200a7e0921b1)
+- **WireGuard LXC** [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/723365a79df7cc0fd29b1af8f7ef200a7e0921b1)
   - Refactor Code
   - Breaking Change
 
@@ -114,7 +109,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **CommaFeed LXC** [(Commit)](https://github.com/tteck/Proxmox/commit/0a33d1739ec3a49011411929bd46a260e92e99f9)
+- **CommaFeed LXC** [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/0a33d1739ec3a49011411929bd46a260e92e99f9)
   - Refactor Code
   - Breaking Change
 
@@ -122,30 +117,30 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **lldap LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/lldap-install.sh)
+- **lldap LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/lldap-install.sh)
   - NEW Script
 
 ## 2024-07-26
 
 ### Changed
 
-- **Gitea LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/gitea-install.sh)
+- **Gitea LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/gitea-install.sh)
   - NEW Script
 
 ## 2024-06-30
 
 ### Changed
 
-- **All Scripts** [(Commit)](https://github.com/tteck/Proxmox/commit/39ea1d4a20b83c07d084ebafdc811eec3548f289)
+- **All Scripts** [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/39ea1d4a20b83c07d084ebafdc811eec3548f289)
   - Requires Proxmox Virtual Environment version 8.1 or later.
 
 ## 2024-06-27
 
 ### Changed
 
-- **Kubo LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/kubo-install.sh)
+- **Kubo LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/kubo-install.sh)
   - NEW Script
-- **RabbitMQ LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/rabbitmq-install.sh)
+- **RabbitMQ LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/rabbitmq-install.sh)
   - NEW Script
 - **Scrutiny LXC**
   - Removed from website, broken.
@@ -161,27 +156,27 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **MySpeed LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/myspeed-install.sh)
+- **MySpeed LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/myspeed-install.sh)
   - NEW Script
 
 ## 2024-06-13
 
 ### Changed
 
-- **PeaNUT LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/peanut-install.sh)
+- **PeaNUT LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/peanut-install.sh)
   - NEW Script
 - **Website**
   - If the Changelog has changed recently, the link on the website will pulse.
-- **Spoolman LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/spoolman-install.sh)
+- **Spoolman LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/spoolman-install.sh)
   - NEW Script
 
 ## 2024-06-12
 
 ### Changed
 
-- **MeTube LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/metube-install.sh)
+- **MeTube LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/metube-install.sh)
   - NEW Script
-- **Matterbridge LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/matterbridge-install.sh)
+- **Matterbridge LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/matterbridge-install.sh)
   - NEW Script
 - **Website**
   - Reopen the gh-pages site (https://tteck.github.io/Proxmox/) 
@@ -190,14 +185,14 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **Zabbix LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/zabbix-install.sh)
+- **Zabbix LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/zabbix-install.sh)
   - NEW Script
 
 ## 2024-06-06
 
 ### Changed
 
-- **Petio LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/petio-install.sh)
+- **Petio LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/petio-install.sh)
   - NEW Script
 - **Website**
   - Important notices will now be displayed on the landing page.
@@ -206,14 +201,14 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **FlareSolverr LXC** [(View Source)](https://github.com/tteck/Proxmox/blob/main/install/flaresolverr-install.sh)
+- **FlareSolverr LXC** [(View Source)](https://github.com/fishboro/Proxmox-Helpers/blob/main/install/flaresolverr-install.sh)
   - NEW Script
 
 ## 2024-05-31
 
 ### Changed
 
-- **Advanced Settings** [(Commit)](https://github.com/tteck/Proxmox/commit/fc9dff220b4ea426d3a75178ad8accacae4683ca)
+- **Advanced Settings** [(Commit)](https://github.com/fishboro/Proxmox-Helpers/commit/fc9dff220b4ea426d3a75178ad8accacae4683ca)
   - Passwords are now masked
 
 ## 2024-05-30
@@ -362,7 +357,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **Frigate LXC**
-  - Unprivileged Hardware Acceleration https://github.com/tteck/Proxmox/discussions/2711#discussioncomment-9244629
+  - Unprivileged Hardware Acceleration https://github.com/fishboro/Proxmox-Helpers/discussions/2711#discussioncomment-9244629
 - **Ubuntu 24.04 VM**
   - NEW Script
 
@@ -527,21 +522,21 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **All scripts**
-  - As of today, the scripts require the Bash shell specifically. ([more info](https://github.com/tteck/Proxmox/discussions/2536))
+  - As of today, the scripts require the Bash shell specifically. ([more info](https://github.com/fishboro/Proxmox-Helpers/discussions/2536))
 
 ## 2024-02-19
 
 ### Changed
 
 - **PairDrop LXC**
-  - Removed from the website ([more info](https://github.com/tteck/Proxmox/discussions/2516))
+  - Removed from the website ([more info](https://github.com/fishboro/Proxmox-Helpers/discussions/2516))
 
 ## 2024-02-16
 
 ### Changed
 
 - **Proxmox VE LXC Filesystem Trim**
-  - NEW Script ([more info](https://github.com/tteck/Proxmox/discussions/2505#discussion-6226037))
+  - NEW Script ([more info](https://github.com/fishboro/Proxmox-Helpers/discussions/2505#discussion-6226037))
 
 ## 2024-02-11
 
@@ -626,7 +621,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 - **Apt-Cacher-NG LXC**
   - NEW Script
 - **New Feature**
-  - The option to utilize Apt-Cacher-NG (Advanced settings) when creating LXCs. The added functionality is expected to decrease bandwidth usage and expedite package installation and updates. https://github.com/tteck/Proxmox/discussions/2332
+  - The option to utilize Apt-Cacher-NG (Advanced settings) when creating LXCs. The added functionality is expected to decrease bandwidth usage and expedite package installation and updates. https://github.com/fishboro/Proxmox-Helpers/discussions/2332
 
 ## 2024-01-09
 
@@ -658,7 +653,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 - **Sonarr LXC**
   - Breaking Change
   - Complete recode
-  - https://github.com/tteck/Proxmox/discussions/1738#discussioncomment-8005107
+  - https://github.com/fishboro/Proxmox-Helpers/discussions/1738#discussioncomment-8005107
 
 ## 2024-01-01
 
@@ -946,7 +941,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **qBittorrent LXC**
-  - Removed from this repository for potential malicious hidden code https://github.com/tteck/Proxmox/discussions/1725
+  - Removed from this repository for potential malicious hidden code https://github.com/fishboro/Proxmox-Helpers/discussions/1725
 
 ## 2023-08-16
 
@@ -1041,7 +1036,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **Proxmox VE Monitor-All**
-  - Skip instances based on onboot and templates. [8c2a3cc](https://github.com/tteck/Proxmox/commit/8c2a3cc4d774fa13d17f695d6bdf9a4deedb1372). 
+  - Skip instances based on onboot and templates. [8c2a3cc](https://github.com/fishboro/Proxmox-Helpers/commit/8c2a3cc4d774fa13d17f695d6bdf9a4deedb1372). 
 
 ## 2023-06-12
 
@@ -1177,7 +1172,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 - **InfluxDB LXC**
   - Choosing InfluxDB v1 will result in Chronograf being installed automatically.
-- **[User Submitted Guides](https://github.com/tteck/Proxmox/blob/main/USER_SUBMITTED_GUIDES.md)**
+- **[User Submitted Guides](https://github.com/fishboro/Proxmox-Helpers/blob/main/USER_SUBMITTED_GUIDES.md)**
   -  Informative guides that demonstrate how to install various software packages using Proxmox VE Helper Scripts.
 
 ## 2023-04-14
@@ -1481,7 +1476,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 
 ### Changed
 
-- **v5 Scripts** (Testing before moving forward https://github.com/tteck/Proxmox/discussions/881)
+- **v5 Scripts** (Testing before moving forward https://github.com/fishboro/Proxmox-Helpers/discussions/881)
   - Adguard Home LXC
   - Docker LXC
   - Home Assistant Core LXC
@@ -1571,7 +1566,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **Proxmox LXC Updater** 
-  - Now updates Ubuntu, Debian, Devuan, Alpine Linux, CentOS-Rocky-Alma, Fedora, ArchLinux [(@Uruknara)](https://github.com/tteck/Proxmox/commits?author=Uruknara)
+  - Now updates Ubuntu, Debian, Devuan, Alpine Linux, CentOS-Rocky-Alma, Fedora, ArchLinux [(@Uruknara)](https://github.com/fishboro/Proxmox-Helpers/commits?author=Uruknara)
 
 ## 2022-11-13
 
@@ -1585,7 +1580,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **HA Bluetooth Integration Preparation** 
-  - [NEW Script](https://github.com/tteck/Proxmox/discussions/719)
+  - [NEW Script](https://github.com/fishboro/Proxmox-Helpers/discussions/719)
 
 ## 2022-11-04
 
@@ -1608,7 +1603,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **Container & Core Restore from Backup** 
-  - [NEW Scripts](https://github.com/tteck/Proxmox/discussions/674)
+  - [NEW Scripts](https://github.com/fishboro/Proxmox-Helpers/discussions/674)
 
 ## 2022-10-07
 
@@ -1781,7 +1776,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 - **Home Assistant OS VM** 
   - Present the drive to the guest as a solid-state drive rather than a rotational hard disk. There is no requirement that the underlying storage actually be backed by SSD's. 
   - When the VM’s filesystem marks blocks as unused after deleting files, the SCSI controller will relay this information to the storage, which will then shrink the disk image accordingly.
-  - 👉 [more info](https://github.com/tteck/Proxmox/discussions/378)
+  - 👉 [more info](https://github.com/fishboro/Proxmox-Helpers/discussions/378)
 
 ## 2022-07-22
 
@@ -1993,7 +1988,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **ALL LXC's**
-  - New [V3 Install Script](https://github.com/tteck/Proxmox/issues/162) 
+  - New [V3 Install Script](https://github.com/fishboro/Proxmox-Helpers/issues/162) 
 - **ioBroker LXC**
   - New Script V3
 
@@ -2274,28 +2269,28 @@ All LXC instances created using this repository come pre-installed with Midnight
 ### Changed
 
 - **Node-Red LXC**
-  - Add Install [Themes Script](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/node-red-themes.png)
+  - Add Install [Themes Script](https://raw.githubusercontent.com/fishboro/Proxmox-Helpers/main/misc/images/node-red-themes.png)
 
 ## 2022-02-16
 
 ### Changed
 
 - **Home Assistant Container LXC**
-  - Add Options to [Update Menu](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/update-menu.png)
+  - Add Options to [Update Menu](https://raw.githubusercontent.com/fishboro/Proxmox-Helpers/main/misc/images/update-menu.png)
 
 ## 2022-02-14
 
 ### Changed
 
 - **Home Assistant Container LXC**
-  - Add [Update Menu](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/update-menu.png)
+  - Add [Update Menu](https://raw.githubusercontent.com/fishboro/Proxmox-Helpers/main/misc/images/update-menu.png)
 
 ## 2022-02-13
 
 ### Changed
 
 - **Mariadb LXC**
-  - Add [Adminer](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/adminer.png) (formerly phpMinAdmin), a full-featured database management tool
+  - Add [Adminer](https://raw.githubusercontent.com/fishboro/Proxmox-Helpers/main/misc/images/adminer.png) (formerly phpMinAdmin), a full-featured database management tool
 
 ## 2022-02-12
 
@@ -2313,7 +2308,7 @@ All LXC instances created using this repository come pre-installed with Midnight
 - **GamUntu LXC**
   - New Script
 - **Jellyfin Media Server LXC**
-  - new script to fix [start issue](https://github.com/tteck/Proxmox/issues/29#issue-1127457380)
+  - new script to fix [start issue](https://github.com/fishboro/Proxmox-Helpers/issues/29#issue-1127457380)
 - **MotionEye NVR LXC**
   - New script
 
@@ -2387,7 +2382,7 @@ All LXC instances created using this repository come pre-installed with Midnight
   - `va-driver-all` is preinstalled
   - now using Ubuntu 21.10
 - **misc**
-  - new GUI script [(Screenshot)](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/pms-copy-data.png) to copy data from one Plex Media Server LXC to another Plex Media Server LXC 
+  - new GUI script [(Screenshot)](https://raw.githubusercontent.com/fishboro/Proxmox-Helpers/main/misc/images/pms-copy-data.png) to copy data from one Plex Media Server LXC to another Plex Media Server LXC 
 
 
 ## Initial Catch up - 2022-01-23

@@ -2,8 +2,9 @@
 
 # Copyright (c) 2021-2024 tteck
 # Author: tteck (tteckster)
+# Maintainer: fishboro
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/fishboro/Proxmox-Helpers/raw/main/LICENSE
 
 set -e
 YW=$(echo "\033[33m")
@@ -113,7 +114,7 @@ cat <<EOF >/srv/esphome/start.sh
 # Copyright (c) 2021-2024 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/fishboro/Proxmox-Helpers/raw/main/LICENSE
 
 source /srv/esphome/bin/activate
 esphome dashboard /srv/esphome/

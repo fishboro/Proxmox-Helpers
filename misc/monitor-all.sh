@@ -2,8 +2,9 @@
 
 # Copyright (c) 2021-2024 tteck
 # Author: tteck (tteckster)
+# Maintainer: fishboro
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/fishboro/Proxmox-Helpers/raw/main/LICENSE
 
 clear
 cat <<"EOF"

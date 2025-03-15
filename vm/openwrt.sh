@@ -3,8 +3,9 @@
 # Copyright (c) 2021-2024 tteck
 # Author: tteck (tteckster)
 #         Jon Spriggs (jontheniceguy)
+# Maintainer: fishboro
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/fishboro/Proxmox-Helpers/raw/main/LICENSE
 # Based on work from https://i12bretro.github.io/tutorials/0405.html
 
 function header_info {
@@ -476,7 +477,7 @@ qm set $VMID \
   -scsi0 ${DISK1_REF},size=512M \
   -boot order=scsi0 \
   -tags proxmox-helper-scripts \
-  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/logo-81x112.png'/></a>
+  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/fishboro/Proxmox-Helpers/main/misc/images/logo-81x112.png'/></a>
 
   # OpenWRT
 

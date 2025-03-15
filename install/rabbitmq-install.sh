@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 # Copyright (c) 2021-2024 tteck
-# Author: tteck
-# Co-Author: MickLesk (Canbiz)
+# Author: tteck (tteckster)
+# Co-Author: MickLesk (CanBiz)
+# Maintainer: fishboro
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/fishboro/Proxmox-Helpers/raw/main/LICENSE
 # Source: https://www.rabbitmq.com/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"

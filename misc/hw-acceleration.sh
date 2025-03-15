@@ -2,10 +2,11 @@
 
 # Copyright (c) 2021-2024 tteck
 # Author: tteck (tteckster)
+# Maintainer: fishboro
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/fishboro/Proxmox-Helpers/raw/main/LICENSE
 # Execute within the Proxmox shell
-# bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/hw-acceleration.sh)"
+# bash -c "$(wget -qLO - https://github.com/fishboro/Proxmox-Helpers/raw/main/misc/hw-acceleration.sh)"
 
 set -e
 function header_info {

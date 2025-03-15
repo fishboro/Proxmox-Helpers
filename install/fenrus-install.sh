@@ -3,11 +3,10 @@
 # Copyright (c) 2021-2024 tteck
 # Author: tteck (tteckster)
 # Co-Author: Scorpoon
+# Maintainer: fishboro
 # License: MIT
-# https://github.com/tteck/Proxmox/raw/main/LICENSE
+# https://github.com/fishboro/Proxmox-Helpers/raw/main/LICENSE
 # Source: https://github.com/revenz/Fenrus
-
-
 
 source /dev/stdin <<< "$FUNCTIONS_FILE_PATH"
 color
