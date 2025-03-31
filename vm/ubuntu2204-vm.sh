@@ -403,7 +403,7 @@ done
 
 msg_info "Creating a Ubuntu 22.04 VM"
 qm create $VMID -agent 1${MACHINE} -tablet 0 -localtime 1 -bios ovmf${CPU_TYPE} -cores $CORE_COUNT -memory $RAM_SIZE \
-  -name $HN -tags proxmox-helper-scripts -net0 virtio,bridge=$BRG,macaddr=$MAC$VLAN$MTU -onboot 1 -ostype l26 -scsihw virtio-scsi-pci
+  -name $HN -net0 virtio,bridge=$BRG,macaddr=$MAC$VLAN$MTU -onboot 1 -ostype l26 -scsihw virtio-scsi-pci
 pvesm alloc $STORAGE $VMID $DISK0 4M 1>&/dev/null
 qm importdisk $VMID ${FILE} $STORAGE ${DISK_IMPORT:-} 1>&/dev/null
 qm set $VMID \
@@ -412,12 +412,7 @@ qm set $VMID \
   -ide2 ${STORAGE}:cloudinit \
   -boot order=scsi0 \
   -serial0 socket \
-  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/fishboro/Proxmox-Helpers/main/misc/images/logo-81x112.png'/></a>
-
-  # Ubuntu 22.04 VM
-
-  <a href='https://ko-fi.com/D1D7EP4GF'><img src='https://img.shields.io/badge/&#x2615;-Buy me a coffee-blue' /></a>
-  </div>" >/dev/null
+  -description "Ubuntu 22.04 VM" >/dev/null
 msg_ok "Created a Ubuntu 22.04 VM ${CL}${BL}(${HN})"
 if [ "$START_VM" == "yes" ]; then
   msg_info "Starting Ubuntu 22.04 VM"

@@ -60,7 +60,7 @@ fi
 header_info
 echo "Loading..."
 pveam update >/dev/null 2>&1
-whiptail --backtitle "Proxmox VE Helper Scripts" --title "All Templates" --yesno "This will allow for the creation of one of the many Template LXC Containers. Proceed?" 10 68 || exit
+whiptail --backtitle "fishboro's Proxmox VE Helper Scripts" --title "All Templates" --yesno "This will allow for the creation of one of the many Template LXC Containers. Proceed?" 10 68 || exit
 TEMPLATE_MENU=()
 MSG_MAX_LENGTH=0
 while read -r TAG ITEM; do
@@ -68,9 +68,9 @@ while read -r TAG ITEM; do
   ((${#ITEM} + OFFSET > MSG_MAX_LENGTH)) && MSG_MAX_LENGTH=${#ITEM}+OFFSET
   TEMPLATE_MENU+=("$ITEM" "$TAG " "OFF")
 done < <(pveam available)
-TEMPLATE=$(whiptail --backtitle "Proxmox VE Helper Scripts" --title "All Template LXCs" --radiolist "\nSelect a Template LXC to create:\n" 16 $((MSG_MAX_LENGTH + 58)) 10 "${TEMPLATE_MENU[@]}" 3>&1 1>&2 2>&3 | tr -d '"') || exit
+TEMPLATE=$(whiptail --backtitle "fishboro's Proxmox VE Helper Scripts" --title "All Template LXCs" --radiolist "\nSelect a Template LXC to create:\n" 16 $((MSG_MAX_LENGTH + 58)) 10 "${TEMPLATE_MENU[@]}" 3>&1 1>&2 2>&3 | tr -d '"') || exit
 [ -z "$TEMPLATE" ] && {
-  whiptail --backtitle "Proxmox VE Helper Scripts" --title "No Template LXC Selected" --msgbox "It appears that no Template LXC container was selected" 10 68
+  whiptail --backtitle "fishboro's Proxmox VE Helper Scripts" --title "No Template LXC Selected" --msgbox "It appears that no Template LXC container was selected" 10 68
   msg "Done"
   exit
 }
@@ -82,7 +82,6 @@ CTID=$(pvesh get /cluster/nextid)
 PCT_OPTIONS="
     -features keyctl=1,nesting=1
     -hostname $NAME
-    -tags proxmox-helper-scripts
     -onboot 0
     -cores 2
     -memory 2048
@@ -134,7 +133,7 @@ function select_storage() {
   else
     local STORAGE
     while [ -z "${STORAGE:+x}" ]; do
-      STORAGE=$(whiptail --backtitle "Proxmox VE Helper Scripts" --title "Storage Pools" --radiolist \
+      STORAGE=$(whiptail --backtitle "fishboro's Proxmox VE Helper Scripts" --title "Storage Pools" --radiolist \
         "Which storage pool you would like to use for the ${CONTENT_LABEL,,}?\n\n" \
         16 $(($MSG_MAX_LENGTH + 23)) 6 \
         "${MENU[@]}" 3>&1 1>&2 2>&3) || die "Menu aborted."
